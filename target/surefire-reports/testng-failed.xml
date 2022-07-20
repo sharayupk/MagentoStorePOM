@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MagentoStoreSuite]">
+  <listeners>
+    <listener class-name="com.MagentoStore.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="MagentoStoreTest(failed)">
+    <classes>
+      <class name="com.MagentoStore.testCases.OrderSummaryPageTest">
+        <methods>
+          <include name="validateOrderSummaryTest"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.MagentoStore.testCases.OrderSummaryPageTest -->
+    </classes>
+  </test> <!-- MagentoStoreTest(failed) -->
+</suite> <!-- Failed suite [MagentoStoreSuite] -->

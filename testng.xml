@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MagentoStoreSuite">
+<listeners>
+<listener class-name="com.MagentoStore.utilities.Reporting"/>
+</listeners>
+	<test name="MagentoStoreTest">
+		<classes>
+			<!-- <class name="com.MagentoStore.testCases.HomePageTest"/> -->
+			<!-- <class name="com.MagentoStore.testCases.CheckOutPageTest"/> -->
+			<class name="com.MagentoStore.testCases.OrderSummaryPageTest" />
+			<!-- <class name="com.MagentoStore.testCases.LoginPageDDT"/> -->
+			<!-- <class name="com.MagentoStore.testCases.AccCreationPageTest"/> -->
+			<!-- <class name="com.MagentoStore.testCases.BaseClass"/> -->
+			<!-- <class name="com.MagentoStore.testCases.LoginPageTest"/> -->
+			<!-- <class name="com.MagentoStore.testCases.MyAccountPageTest"/> -->
+			<!-- <class name="com.MagentoStore.testCases.AddToCartPageTest"/> -->
+		</classes>
+	</test>
+</suite> 
